@@ -103,7 +103,6 @@ export default  {
         },
         backToResult: function(){
             this.player = false;
-            this.$refs['zikListener'].pause();
         }
     },
     computed: {
